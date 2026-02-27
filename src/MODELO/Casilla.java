@@ -3,7 +3,7 @@ package MODELO;
 public abstract class Casilla {
 	private int posicion;
 	
-	public Casilla() {
+	public Casilla(int posicion) {
 		this.posicion = posicion;
 	}
 	
@@ -12,5 +12,10 @@ public abstract class Casilla {
 	}
 	public void setPosicion(int posicion) {
 		this.posicion = posicion;
+	}
+	
+	public void realizarAccion() {
+		
+		
 	}
 }

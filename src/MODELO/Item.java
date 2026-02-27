@@ -1,5 +1,9 @@
 package MODELO;
-
+/*
+ * CLASE ABSTRACTA ITEM
+ * CONSTRUCTORES 
+ * GETTERS Y SETTERS 
+ */
 public abstract class Item {
 	private String nombre;
 	private int cantidad;
