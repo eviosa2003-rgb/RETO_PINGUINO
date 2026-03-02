@@ -9,7 +9,11 @@ public class Partida {
     private boolean finalizada;
     private Jugador ganador;
 
-    public Partida() {}
+    public Partida() {
+        jugadores = new ArrayList<>();
+        turnos = 0;
+        finalizada = false;
+    }
 
     public Jugador getJugadorActual() {
         return jugadorActual;
