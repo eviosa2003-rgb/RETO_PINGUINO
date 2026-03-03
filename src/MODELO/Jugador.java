@@ -13,7 +13,9 @@ public abstract class Jugador {
 	public void moverPosicion(int p) {
 		 this.posicion += p;
 	}
-	
+	public void siguienteTurno() {
+        turnoActual = (turnoActual + 1) % jugadores.size();
+    }
 }
 
 

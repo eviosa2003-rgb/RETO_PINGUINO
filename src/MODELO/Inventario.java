@@ -8,12 +8,33 @@ public class Inventario {
 	public Inventario() {
 		items = new ArrayList<>();
 	}
-	 public ArrayList<Item> getItems() {
-        return items;
+
+    public void agregarItem(Item item) {
+        for (Item i : items){
+              if (i.getNombre().equalsIgnoreCase(item.getNombre())) {
+                i.setCantidad(i.getCantidad() + item.getCantidad());
+                return;
+              }
+        }
+    }
+    items.add(item);
+
+
+	    public boolean usarItem(String nombre) {
+
+        for (Item i : items) {
+            if (i.getNombre().equalsIgnoreCase(nombre) && i.getCantidad() > 0) {
+                i.setCantidad(i.getCantidad() - 1);
+                return true;
+            }
+        }
+
+        return false;
     }
 
-    public void setItems(ArrayList<Item> items) {
-        this.items = items;
+    public ArrayList<Item> getItems() {
+        return items;
     }
 }
+
 

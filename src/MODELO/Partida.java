@@ -9,14 +9,18 @@ public class Partida {
     private boolean finalizada;
     private Jugador ganador;
 
-    public Partida() {
-        jugadores = new ArrayList<>();
-        turnos = 0;
-        finalizada = false;
+     public Partida(Tablero tablero, ArrayList<Jugador> jugadores) {
+        this.tablero = tablero;
+        this.jugadores = jugadores;
+        this.turnoActual = 0;
+    }
+    
+    public void siguienteTurno() {
+        turnoActual = (turnoActual + 1) % jugadores.size();
     }
 
     public Jugador getJugadorActual() {
-        return jugadorActual;
+        return jugadores.get(turnoActual);
     }
 }
 

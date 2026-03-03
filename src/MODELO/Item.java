@@ -12,5 +12,14 @@ public abstract class Item {
 		this.nombre = nombre;
 		this.cantidad = cantidad;
 	}
-	
+	public String getNombre() {
+		return nombre;
+	}
+	public int getCantidad(){
+		return cantidad;
+	}
+	public void setCantidad(int cantidad){
+		this.cantidad = cantidad;
+	}
+	public abstract void aplicarEfecto (Jugador jugador);
 }
