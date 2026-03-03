@@ -13,6 +13,18 @@ public abstract class Jugador {
 	public void moverPosicion(int p) {
 		 this.posicion += p;
 	}
+	public int getPosicion(){
+		return posicion;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setPosicion(int posicion){
+		this.posicion = posicion;
+	}
 	public void siguienteTurno() {
         turnoActual = (turnoActual + 1) % jugadores.size();
     }
