@@ -14,7 +14,7 @@ public abstract class Casilla {
 		this.posicion = posicion;
 	}
 	
-	public void realizarAccion() {
+	public void realizarAccion(Partida partida, Jugador jugador) {
 		
 		
 	}
