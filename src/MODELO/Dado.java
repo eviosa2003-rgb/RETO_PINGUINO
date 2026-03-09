@@ -12,7 +12,7 @@ public abstract class Dado extends Item {
         this.max = max;
         this.random = new Random();
     }
-
+	
     public int tirar() {
         return random.nextInt(max - min + 1) + min;
     }
