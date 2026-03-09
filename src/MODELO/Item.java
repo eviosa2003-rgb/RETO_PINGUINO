@@ -5,8 +5,8 @@ package MODELO;
  * GETTERS Y SETTERS 
  */
 public abstract class Item {
-	private String nombre;
-	private int cantidad;
+	protected String nombre;
+	protected int cantidad;
 	
 	public Item(String nombre, int cantidad) {
 		this.nombre = nombre;

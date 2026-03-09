@@ -3,7 +3,7 @@ package MODELO;
 import java.util.ArrayList;
 
 public class Inventario {
-	private ArrayList<Item> lista;
+	private ArrayList<Item> items;
 	
 	public Inventario() {
 		items = new ArrayList<>();
@@ -16,19 +16,18 @@ public class Inventario {
                 return;
               }
         }
+        items.add(item);
     }
-    items.add(item);
 
 
-	    public boolean usarItem(String nombre) {
+	 public boolean usarItem(String nombre) {
 
-        for (Item i : items) {
-            if (i.getNombre().equalsIgnoreCase(nombre) && i.getCantidad() > 0) {
-                i.setCantidad(i.getCantidad() - 1);
-                return true;
+     for (Item i : items) {
+        if (i.getNombre().equalsIgnoreCase(nombre) && i.getCantidad() > 0) {
+              i.setCantidad(i.getCantidad() - 1);
+              return true;
             }
         }
-
         return false;
     }
 
