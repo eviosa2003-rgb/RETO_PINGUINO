@@ -1,14 +1,16 @@
 package MODELO;
 import java.util.Random;
 
-public class Dado extends Item {
+public abstract class Dado extends Item {
 	private int max;
 	private int min;
+	private Random random;
 	
-	public Dado(, int max, int min) {
+	public Dado (int max, int min, String nombre, int cantidad) {
+		super (nombre, cantidad);
 		this.min = min;
         this.max = max;
-        random = new Random();
+        this.random = new Random();
     }
 
     public int tirar() {
