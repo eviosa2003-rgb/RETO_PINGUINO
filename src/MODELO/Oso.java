@@ -6,7 +6,7 @@ public class Oso extends Casilla{
 		super(posicion);
 	}
 	@Override
-	public void realizarAccion() {
-		
+	public void realizarAccion(Jugador jugador, Partida partida) {
+		if(jugador.getInventario())
 	}
 }

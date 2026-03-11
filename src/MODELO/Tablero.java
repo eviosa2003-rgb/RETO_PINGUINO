@@ -8,10 +8,10 @@ public class Tablero {
 	 
 	 public Tablero() {
 		 casillas = new ArrayList<>();
-		 generarCasillas();
+		 generarTableroAleatorio();
 	 }
 	 
-	 private void generarCasillas() {
+	 private void generarTableroAleatorio() {
 		 Random r = new Random();
 		 for (int i = 0; i < TOTAL_CASILLAS; i++) {
 			 String tipo;
@@ -27,6 +27,7 @@ public class Tablero {
 		           	else if (prob < 40) tipo = "INTERROGANT";
 		           	else tipo = "NORMAL";
 		            }
+			 
 			 }
 		 }
 	 public Casilla getCasilla(int pos) {
