@@ -6,6 +6,25 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
+
+/*Esta clase lo que hara es controlar el funcionamiento principal del juego y como ira la`partida.
+En esta clase creamos objetos que sean necesarios para gestionar la partida, como partida, gestorBasedeDatps, para guardar partida
+y algun scanner.
+
+En el metodo de iniciar muestra el menu inicial que permite añ usuario elegir entre comenzar una nueva partida o cargar partida.
+Si se inicia otra partida, en nuevaPartida solicitara el numero de jugadores, nombres y creara los objetos correspondientes.
+
+En el metodo bucleJuego controla el desarollo del juego mediante un bucle que dura hasta que acabe la partida.
+En cada turno mostrara la informacion de cada jugador, su posicion en el tablero y los objetos de su inventario.
+Despues ek jugador que le toque podra elegir que quiere hacer, como tirar el dado, un uso especial, ETC.
+
+Al final cuando un jugador gana el juego se termina y se muestra el mensaje de quien ha ganado.*/
+
+
+
+
+
+
 public class GestorPartida {
 
     private Partida partida;

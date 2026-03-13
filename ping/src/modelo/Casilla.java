@@ -1,5 +1,8 @@
 package modelo;
 
+/* Esta clase reperesnta la clase de casilla que definira la posicion de cada jugador,
+tambein mostrara la casilla donde esta y la accion que hara. */
+
 
 public abstract class Casilla {
 

@@ -9,11 +9,23 @@ import java.util.ArrayList;
 import java.util.Base64;
 
 
+/* Esta clase de gestor de base de datos gestiona la conexion entre el juego y la base de datos.
+Al principio definimos la conexion con el Usuario y Contraseña de la base de datos, luego cuabdo 
+creamos un objeto se ejecutara en metodo inicializarBD que comprobara si las tablas existen en la base de datos,
+en caso contrario las crara y almacenaran la informacion de partida y jugadores.
+
+El guardar partida que esta mas abajp almacena en la base de datos el estado del juego, incluyendo turno actual, posicion y los objetos de su inventario.
+
+En el de cargarPartida permite recuperar la ultima partida que se haya guardado, en ello le la informacion guardada y reconstruye los objetos necesarios del juego.*/
+
+
+
+
 public class GestorBaseDatos {
 
-    private static final String DB_URL    = "jdbc:oracle:thin:@localhost:1521:XE";
-    private static final String DB_USER   = "julenputoamo";
-    private static final String DB_PASS   = "tumadre33";
+    private static final String DB_URL    = "jdbc:oracle:thin:192.95:1521:XE";
+    private static final String DB_USER   = "aleixmv10";
+    private static final String DB_PASS   = "A48251679W";
     private static final byte[] CLAVE_AES = "PinguinoJuego128".getBytes();
 
     public GestorBaseDatos() {

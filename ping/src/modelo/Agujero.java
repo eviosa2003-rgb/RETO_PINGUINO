@@ -1,5 +1,10 @@
 package modelo;
 
+/* Esta clase lo que hará es modificar la posicion del jugador cuando cae en ella.
+
+Cuando un jugador llega a esta casilla, se ejecuta el metodo accion que lo que hara es un mensaje indicando
+que e jugador ha caido en un agujero de hielo. Lo que hara el programa es encontrar el agujero anterior a la posicion actual,
+entonces trasladara el jugador a esa casilla o a posicion inicial.*/
 
 
 public class Agujero extends Casilla {
