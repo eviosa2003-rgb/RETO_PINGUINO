@@ -1,5 +1,6 @@
 package modelo;
 
+/* Aqui si el tipo de evento es obtener pez, obtener bolas de nieve, obtener dado rapdo o lento. */
 
 public enum TipoEvento {
     OBTENER_PEZ,

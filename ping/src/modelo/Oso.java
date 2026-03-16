@@ -1,5 +1,7 @@
 package modelo;
 
+/*En estas clas veremos que es del Oso. Cuando el jugador cae en la casilla del oso aparecera un oso que lo atacra.
+Si tienes peces en el invemtario puedes usarlos para evitar el ataque sino vuelves a la casilla de inicio. */
 
 public class Oso extends Casilla {
 

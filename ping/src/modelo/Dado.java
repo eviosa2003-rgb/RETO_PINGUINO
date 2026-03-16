@@ -3,6 +3,9 @@ package modelo;
 
 import java.util.Random;
 
+/* Usamos un metodo tirar que genera un numero aleatoria del 1 al 6 y uno lento del 1 al 3. 
+Luego lo mostramos por pantalla dando el tipo de dado y su rango de valores. */
+
 
 public class Dado {
 

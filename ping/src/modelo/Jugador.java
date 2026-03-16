@@ -1,5 +1,8 @@
 package modelo;
 
+/* Aqui vemos la clase de jugador donde se mostrara la posicion en el tablero, el nombre, el color y el inventario.
+Ademas hemos hecho que se pueda mover de posicion, obtener sus datos y controlar que no salga de los limites.  */
+
 
 public abstract class Jugador {
 

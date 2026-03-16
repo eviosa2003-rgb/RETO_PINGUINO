@@ -3,6 +3,11 @@ package modelo;
 
 import java.util.Random;
 
+/* Esto es un evento aleatorio que puede pasar durante la partida.
+El metedo ejecuta el efecto del evento sobre el jugador pudiendo añadir peces, bolsa de nieve o ddos especiales.
+Y luego lo muestra con un mensaje. */
+
+
 
 public class Evento {
 

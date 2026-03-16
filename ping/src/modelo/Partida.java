@@ -2,6 +2,12 @@ package modelo;
 
 import java.util.ArrayList;
 
+/* Esta clase gestionara el desarollo de la partida, contiene tablero, jugadores, turno, el estado de la partida y el ganador.
+Tambien tenemos siguiente turno para que cambia de turno de jugador, que avance a la meta y cuando llegue que diga el ganador.
+Tambien se podra ver la informacion del jugador, participantes, tablero yy si la partida ha finalizado. */
+
+
+
 
 public class Partida {
 

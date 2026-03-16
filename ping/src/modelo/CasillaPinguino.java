@@ -1,6 +1,7 @@
 package modelo;
 
-
+/* Es una clase que cuando caes en ella no ocurre ningun efecto especial.
+En el void simplemente muestra un mensaje indicando que el jugador esta en esa casilla, pero su posicion no cambia. */
 
 public class CasillaPinguino extends Casilla {
 

@@ -1,5 +1,7 @@
 package modelo;
 
+/* Respresenta un objeto del juego, y pueden ser almacenados o utilizdos.  */
+
 
 public abstract class Item {
 

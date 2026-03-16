@@ -1,5 +1,7 @@
 package modelo;
 
+/* Esta clase es la de trineo, veremos que si un jugador cae en esta casilla, se mueve automaticamente a otra casilla de trineo.
+Si no hay mas trineos adelante, el jugador permanecera en la casilla actual. */
 
 public class Trineo extends Casilla {
 

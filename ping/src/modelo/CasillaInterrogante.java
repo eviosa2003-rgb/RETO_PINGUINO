@@ -1,7 +1,11 @@
 package modelo;
 
-
 import java.util.Random;
+
+/*Esta clase es sobre una casilla especial, cuando un jugador cae en ella se activa in evento aleatorio.
+Luego en el void de accion generamos un evento al azar que puede dar al jugador diferentes recompensas,
+como peces, bolas de nieve o dados especiales. */
+
 
 public class CasillaInterrogante extends Casilla {
 

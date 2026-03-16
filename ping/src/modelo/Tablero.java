@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
+/* Hacemos una arraylist de casillas para definir el numero total de casillas, luego el tablero se formara de forma aleatoria,
+mezclndo tipos de casillas como Pinguino, Oso, trineo e Interrogante, y que la primera y la ultima sean Pinguino si o si.
+Luego mostraremos casilla y su numero y que se vea el tablero. */
+
 
 public class Tablero {
 

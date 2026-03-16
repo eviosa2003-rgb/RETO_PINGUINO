@@ -2,6 +2,14 @@ package modelo;
 
 import java.util.ArrayList;
 
+/* Esta clas egestiona los objetos que tiene cada jugador durante la partida.
+Puedes almacenar dados, peces y bolas de nieve, cada uno con un limite maximo.
+
+Incluye un usar, añadir o eliminar.*/
+
+
+
+
 
 public class Inventario {
 
