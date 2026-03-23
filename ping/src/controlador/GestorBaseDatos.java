@@ -24,8 +24,8 @@ En el de cargarPartida permite recuperar la ultima partida que se haya guardado,
 public class GestorBaseDatos {
 
     private static final String DB_URL    = "jdbc:oracle:thin:192.95:1521:XE";
-    private static final String DB_USER   = "aleixmv10";
-    private static final String DB_PASS   = "A48251679W";
+    private static final String DB_USER   = "DM1_2526_GRUP03";
+    private static final String DB_PASS   = "AGRUP03";
     private static final byte[] CLAVE_AES = "PinguinoJuego128".getBytes();
 
     public GestorBaseDatos() {
